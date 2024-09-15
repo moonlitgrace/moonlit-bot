@@ -7,6 +7,9 @@
     "sourceMap": true,
     "outDir": "./lib",
 
+    // FIXME: https://github.com/isaacs/node-lru-cache/issues/354#issuecomment-2343917554
+    "skipLibCheck": true,
+
     /* Strict Type-Checking Options */
     "strict": true,
 
