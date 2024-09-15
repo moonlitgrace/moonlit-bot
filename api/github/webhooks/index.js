@@ -1,6 +1,5 @@
 import { createNodeMiddleware, createProbot } from "probot";
-
-const app = require("../../../lib/index.js");
+import app from '../../../lib/index.js';
 
 module.exports = createNodeMiddleware(app, {
   probot: createProbot(),
